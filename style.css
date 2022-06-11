@@ -1,12 +1,61 @@
 @font-face {
-    font-family: KdamThmorPro-Regular;
-    src: url(assets/fonts/KdamThmorPro-Regular.ttf);
+    font-family: KdamThmorPro;
+    src: url(assets/fonts/font1.ttf);
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: rgb(206, 206, 206);
+    font-family: 'KdamThmorPro';
 }
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle
+        }
+.icon2 {
+     width: 35px;
+     height: 35px;
+     vertical-align: middle
+        }
+
+body {
+font-size: 18px;
+     }
+ main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 184, 149);
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 1100px;
     }
-.photo{
-    border-radius: 100px;
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 255, 225);
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 1100px;
 }
-    
+.photo {
+    width: 350px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 175px;
+}
+.contacts {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.skills-main {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.Languages-main {
+    margin-left: 10px;
+    margin-right: 0px;
+}
