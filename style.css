@@ -32,6 +32,26 @@ font-size: 18px;
     width: 600px;
     height: 1100px;
     }
+.about-me {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    }
+.education {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    }
+.army {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    }
+.code-examples {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    }
 aside {
     display: flex;
     flex-direction: column;
@@ -59,3 +79,17 @@ aside {
     margin-left: 10px;
     margin-right: 0px;
 }
+footer {
+    margin-top: 220px;
+    margin-left: 10px;
+}
+.logo-github {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle
+       }
+.logo-rs_school {
+width: 50px;
+height: 50px;
+vertical-align: middle
+   }
