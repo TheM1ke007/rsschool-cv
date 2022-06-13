@@ -1,95 +1,115 @@
 @font-face {
-    font-family: KdamThmorPro;
-    src: url(assets/fonts/font1.ttf);
+  font-family: KdamThmorPro;
+  src: url(assets/fonts/font1.ttf);
 }
 body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: flex-start;
-    background-color: rgb(206, 206, 206);
-    font-family: 'KdamThmorPro';
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 206, 206);
+  font-family: "KdamThmorPro";
+  font-size: 20px;
 }
 .icon {
-    width: 45px;
-    height: 45px;
-    vertical-align: middle
-        }
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
 .icon2 {
-     width: 35px;
-     height: 35px;
-     vertical-align: middle
-        }
-
-body {
-font-size: 18px;
-     }
- main {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(94, 184, 149);
-    color: rgb(0, 0, 0);
-    width: 600px;
-    height: 1100px;
-    }
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(94, 184, 149);
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 1100px;
+}
 .about-me {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
-    }
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 16px;
+}
 .education {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
-    }
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
 .army {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
-    }
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
 .code-examples {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
-    }
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
 aside {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(195, 255, 225);
-    color: rgb(0, 0, 0);
-    width: 400px;
-    height: 1100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(195, 255, 225);
+  color: rgb(0, 0, 0);
+  width: 400px;
+  height: 1100px;
 }
 .photo {
-    width: 350px;
-    height: 350px;
-    margin-top: 25px;
-    margin-left: 25px;
-    border-radius: 175px;
+  width: 350px;
+  height: 350px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 175px;
 }
 .contacts {
-    margin-left: 10px;
-    margin-right: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 .skills-main {
-    margin-left: 10px;
-    margin-right: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 .Languages-main {
-    margin-left: 10px;
-    margin-right: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 footer {
-    margin-top: 220px;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 50px;
 }
 .logo-github {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle
-       }
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
 .logo-rs_school {
-width: 50px;
-height: 50px;
-vertical-align: middle
-   }
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.education-list {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.speciality-list {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+}
