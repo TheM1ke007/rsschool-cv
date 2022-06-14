@@ -10,7 +10,7 @@ body {
   align-items: center;
   background-color: rgb(206, 206, 206);
   font-family: "KdamThmorPro";
-  font-size: 22px;
+  font-size: 20px;
 }
 .icon {
   width: 45px;
@@ -34,7 +34,7 @@ main {
   margin-left: 10px;
   margin-right: 10px;
   text-align: justify;
-  font-size: 22px;
+  font-size: 20px;
 }
 .education {
   margin-left: 10px;
@@ -105,16 +105,21 @@ footer {
   justify-content: center;
 }
 .education-list {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .speciality-list {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .block1 {
   display: flex;
   flex-direction: row;
+}
+.project {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
 }
